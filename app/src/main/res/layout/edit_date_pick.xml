@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/date_pick_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Current state"
+        android:textSize="3mm"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        tools:ignore="InOrMmUsage" />
+
+    <EditText
+        android:id="@+id/edit_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Single/in love with sb/dating with sb"
+        android:textAlignment="center"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Begin Date"
+        android:layout_marginTop="30dp"
+        android:textSize="3mm"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:focusable="false"
+        android:hint="Click to choose date"
+        android:textAlignment="center"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Event Memo"
+        android:textSize="3mm"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        tools:ignore="InOrMmUsage" />
+
+    <EditText
+        android:id="@+id/edit_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Things to say about it.."
+        android:textAlignment="center"
+        android:layout_weight="0.03" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btnEditSave"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnEditCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

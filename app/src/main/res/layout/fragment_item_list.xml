@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:orientation="vertical">-->
+    <!--<android.support.v7.widget.LinearLayoutCompat-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAlignment="center">-->
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Event"-->
+        <!--android:id="@+id/text_1"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Date"-->
+        <!--android:id="@+id/text_2"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Memo"-->
+        <!--android:id="@+id/text_3"/>-->
+    <!--</android.support.v7.widget.LinearLayoutCompat>-->
+
+    <!--<android.support.v7.widget.LinearLayoutCompat-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent">-->
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:name="com.example.jay.calendarview.fragments.ItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.example.jay.calendarview.fragments.DeadLineFragment"
+        tools:listitem="@layout/fragment_item" />
+    <!--</android.support.v7.widget.LinearLayoutCompat>-->
+<!--</android.support.v7.widget.LinearLayoutCompat>-->
+
+
+
+
+
+
+
